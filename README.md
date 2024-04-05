@@ -1,5 +1,5 @@
-# Using Deep Learning to Increase Eye-Tracking Robustness, Accuracy, and Precision in Virtual Reality
-A compilation of code relevant to https://arxiv.org/abs/2403.19768
+# [Using Deep Learning to Increase Eye-Tracking Robustness, Accuracy, and Precision in Virtual Reality](https://arxiv.org/abs/2403.19768)
+A compilation of relevant code.
 
 ## Analysis
 This section is dedicated to code for analyzing existing eye tracking footage using deep learning networks.
