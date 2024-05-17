@@ -53,3 +53,32 @@ This section is dedicated to the code used for our experiments' data collection.
 * Repository 1 (`"Interception UXF"`): https://github.com/PerForm-Lab-RIT/Interception_UXF/tree/HMD_Eyes_1.4
 * Repository 2 (`"pupil"`): https://github.com/PerForm-Lab-RIT/pupil/tree/post-hoc-vr-gazer-capture
   * Note that this is distinct from the `pupil` used in the Analysis portion.
+
+## Citation
+
+- BibTeX:
+```
+@article{10.1145/3654705,
+author = {Barkevich, Kevin and Bailey, Reynold and Diaz, Gabriel J.},
+title = {Using Deep Learning to Increase Eye-Tracking Robustness, Accuracy, and Precision in Virtual Reality},
+year = {2024},
+issue_date = {May 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {7},
+number = {2},
+url = {https://doi.org/10.1145/3654705},
+doi = {10.1145/3654705},
+abstract = {Algorithms for the estimation of gaze direction from mobile and video-based eye trackers typically involve tracking a feature of the eye that moves through the eye camera image in a way that covaries with the shifting gaze direction, such as the center or boundaries of the pupil. Tracking these features using traditional computer vision techniques can be difficult due to partial occlusion and environmental reflections. Although recent efforts to use machine learning (ML) for pupil tracking have demonstrated superior results when evaluated using standard measures of segmentation performance, little is known of how these networks may affect the quality of the final gaze estimate. This work provides an objective assessment of the impact of several contemporary ML-based methods for eye feature tracking when the subsequent gaze estimate is produced using either feature-based or model-based methods. Metrics include the accuracy and precision of the gaze estimate, as well as drop-out rate.},
+journal = {Proc. ACM Comput. Graph. Interact. Tech.},
+month = {may},
+articleno = {27},
+numpages = {16},
+keywords = {eye tracking, gaze estimation, neural networks, virtual reality}
+}
+```
+
+- ACM Reference Format:
+```
+Kevin Barkevich, Reynold Bailey, and Gabriel J. Diaz. 2024. Using Deep Learning to Increase Eye-Tracking Robustness, Accuracy, and Precision in Virtual Reality. Proc. ACM Comput. Graph. Interact. Tech. 7, 2, Article 27 (May 2024), 16 pages. https://doi.org/10.1145/3654705
+```
